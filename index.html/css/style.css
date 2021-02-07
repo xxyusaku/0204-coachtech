@@ -220,7 +220,7 @@ input, select {
 
 #service {
   background: #cccccc;
-  height: 2000px;
+  height: 1500px;
   margin-top: 150px;
 }
 
@@ -229,7 +229,9 @@ input, select {
   width: 850px;
   height: 600px;
   left: 50%;
-  top: -200px;
+  top: 50px;
+  z-index: 2;
+  margin-left: auto;
 }
 
 #service .section-title {
@@ -242,13 +244,15 @@ input, select {
 }
 
 .card {
-  width: 60%;
+  width: 30%;
   padding: 50px 20px 50px;
   color: #000;
   border: 1px solid #f2f2f2;
   background: #f2f2f2;
-  margin-right: 50px;
-  position: relative;
+  top: 30%;
+  left: 30%;
+  z-index: 3;
+  position: absolute;
 }
 
 .title,
@@ -258,6 +262,10 @@ input, select {
   font-size: 14px;
 }
 
+.sub-title {
+  padding-top: 5px;
+}
+
 .text {
   padding: 10px 0;
 }
@@ -265,8 +273,89 @@ input, select {
 .link {
   display: block;
   text-align: center;
-  margin: 10px 0;
   font-size: 14px;
+  font-weight: bold;
   color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  width: 40%;
+  margin: 10px 0;
+  padding: 5px 0;
 }
 
+.service-coaching {
+  position: relative;
+}
+
+.service-coaching2 {
+  position: relative;
+  right: 850px;
+}
+
+.service-coaching2 img {
+  height: 300px;
+}
+
+.card2 {
+  width: 30%;
+  padding: 50px 20px 50px;
+  color: #000;
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  top: 30%;
+  left: 90%;
+  z-index: 3;
+  position: absolute;
+}
+
+.link2 {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  width: 40%;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.title2,
+.sub-title2,
+.text2 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.sub-title2 {
+  padding-top: 5px;
+}
+
+.text2 {
+  padding: 10px 0;
+}
+
+#company {
+  position: absolute;
+  width: 100px;
+}
+
+.last {
+  position: relative;
+}
+
+.last img {
+  width: 40%;
+  height: 250px;
+  position: relative;
+}
+
+.last-log title {
+  position: absolute;
+}
+
+.last-log2 img {
+  position: absolute;
+  
+}
